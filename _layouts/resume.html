@@ -1,0 +1,16 @@
+---
+layout: single 
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/resume.css' | relative_url }}">
+<div class="resume-container">
+  <p>
+    Last updated {{ site.data.resume.last_updated | date: "%b %d, %Y" }}
+    <span style="float: right;">
+      <a href="{{ '/assets/resume_ammon_knaupp.pdf' | relative_url }}" class="download-btn" download>download PDF</a>
+    </span>
+  </p>
+  <main>
+    {{ content }}
+  </main>
+</div>

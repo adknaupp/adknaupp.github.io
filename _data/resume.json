@@ -1,0 +1,82 @@
+{
+  "last_updated": "2025-05-28",
+  "education": [
+    {
+      "institution": "Brigham Young University",
+      "degree": "Bachelor of Science: Bioinformatics",
+      "date": "Apr 2024",
+      "details": ["Minor in German"]
+    },
+    {
+      "institution": "MIT Institute for Data, Systems, and Society",
+      "degree": "Data Science and Machine Learning Program",
+      "date": "Completion by June 2025"
+    }
+  ],
+  "skills": [
+    "Tools: Python, Bash, SQL, R, Excel, Linux/Unix, GitHub, Jira",
+    "Techniques: Machine Learning, Agile Methodology, Next-Generation Sequencing"
+  ],
+  "experience": [
+    {
+      "company": "Myriad Genetics",
+      "role": "Technology Intern",
+      "date": "July 2024-Sept 2024",
+      "details": [
+        "Designed an ETL workflow and Splunk dashboard to make customer engagement observable.",
+        "Built frontend app prototypes using JSM and FastUI/FastAPI to automate onboarding processes.",
+        "Collaborated with engineers using GitHub and agile methodology to develop Python software."
+      ]
+    },
+    {
+      "company": "BYU DNA Sequencing Center",
+      "role": "Research Assistant",
+      "date": "Sept 2020-June 2024",
+      "details": [
+        "Analyzed metrics from sequencing instruments and bioinformatics pipeline outputs to ensure data quality.",
+        "Designed and built Python application to control access to user data, shortening manual process by 95%.",
+        "Performed wet lab tasks (e.g. HMW DNA extractions, fragmentation, PCRs, complex library preps)."
+      ]
+    },
+    {
+      "company": "BYU Department of Chemistry",
+      "role": "Research Assistant",
+      "date": "Feb-Sep 2020",
+      "details": [
+        "Automated computational chemistry workflows using Python in a distributed computing environment.",
+        "Analyzed molecular dynamics datasets from computational chemistry simulations.",
+        "Wrote quarterly proposal/progress report to qualify my project for undergraduate research award funds."
+      ]
+    },
+    {
+      "company": "Business Credentialing Services",
+      "role": "International Compliance Analyst",
+      "date": "Apr 2019-Feb 2020",
+      "details": [
+        "Maintained documentation of vendor registrations and continuous insurance coverage.",
+        "Communicated with external clients in Dutch and German via outgoing phone and email.",
+        "Localized vendor registration portal for Dutch and German speaking countries."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Data Access Control Service",
+      "role": "Software Engineer",
+      "details": [
+        "Devised creative solution that extends existing features by integrating an app that provides additional services.",
+        "Designed Nginx server and FastAPI app to route requests, manage Globus resources, and modify filesystem.",
+        "Performed unit and integration testing and deployed FastAPI application and Nginx on Linux server."
+      ]
+    },
+    {
+        "name": "Pharmacogenetic Haplotype Analysis",
+        "role": "Bioinformatics Consultant",
+        "details": [
+            "Prepared and sequenced amplicon libraries and preprocessed raw sequencing data.",
+            "Developed bioinformatics workflow to call haplotypes from amplicon sequencing data.",
+            "Validated haplotype calls using custom statistical analysis method."
+        ]
+    }
+  ]
+}

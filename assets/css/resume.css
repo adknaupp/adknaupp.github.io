@@ -1,0 +1,9 @@
+main h2 {
+    text-transform: uppercase;
+}
+
+main ul {
+    list-style-type: square;
+    padding-left: 1em;
+    font-size: 0.8em;
+}
