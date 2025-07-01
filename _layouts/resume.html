@@ -6,10 +6,14 @@ layout: single
 <div class="resume-container">
   <p>
     Last updated {{ site.data.resume.last_updated | date: "%b %d, %Y" }}
-    <span style="float: right;">
-      <a href="{{ '/assets/resume_ammon_knaupp.pdf' | relative_url }}" class="download-btn" download>download PDF</a>
-    </span>
   </p>
+  <div class="pdf-section" style="margin-top: 10px; margin-bottom: 10px; border: 1px solid #eee; border-radius: 6px; padding: 8px 12px; background: #fafbfc;">
+    <strong>Download PDFs:</strong>
+    <span style="float: right;">
+      <a href="{{ '/assets/resume_ammon_knaupp.pdf' | relative_url }}" class="download-btn" download>resume</a>
+      <a href="{{ '/assets/cover letter.pdf' | relative_url }}" class="download-btn" download style="margin-left: 10px;">cover letter</a>
+    </span>
+  </div>
   <main>
     {{ content }}
   </main>
