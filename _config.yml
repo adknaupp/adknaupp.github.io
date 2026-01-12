@@ -21,6 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   serve as a portfolio and vision board. My interests include genetic
   genealogy, software development, data science, and human genetics.
 github_username: adknaupp
+repository: adknaupp/adknaupp.github.io
 minimal_mistakes_skin: default
 search: true
 
